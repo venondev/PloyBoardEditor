@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PloyBoardEditor/static/css/main.91c0cd4d.chunk.css",
+    "main.js": "/PloyBoardEditor/static/js/main.a255d26b.chunk.js",
+    "main.js.map": "/PloyBoardEditor/static/js/main.a255d26b.chunk.js.map",
+    "runtime-main.js": "/PloyBoardEditor/static/js/runtime-main.95668189.js",
+    "runtime-main.js.map": "/PloyBoardEditor/static/js/runtime-main.95668189.js.map",
+    "static/js/2.b8b0857a.chunk.js": "/PloyBoardEditor/static/js/2.b8b0857a.chunk.js",
+    "static/js/2.b8b0857a.chunk.js.map": "/PloyBoardEditor/static/js/2.b8b0857a.chunk.js.map",
+    "index.html": "/PloyBoardEditor/index.html",
+    "precache-manifest.91267c8faa50013ba47376550f2cdc43.js": "/PloyBoardEditor/precache-manifest.91267c8faa50013ba47376550f2cdc43.js",
+    "service-worker.js": "/PloyBoardEditor/service-worker.js",
+    "static/css/main.91c0cd4d.chunk.css.map": "/PloyBoardEditor/static/css/main.91c0cd4d.chunk.css.map",
+    "static/js/2.b8b0857a.chunk.js.LICENSE.txt": "/PloyBoardEditor/static/js/2.b8b0857a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/PloyBoardEditor/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95668189.js",
+    "static/js/2.b8b0857a.chunk.js",
+    "static/css/main.91c0cd4d.chunk.css",
+    "static/js/main.a255d26b.chunk.js"
+  ]
+}
