@@ -56,8 +56,10 @@ const fieldReducer = (state, action) => {
             }
         }
         case "FIELD_ERASE": {
-            return setToken(action.x, action.y, undefined, false)
+            return setToken(action.x, action.y, undefined, false);
         }
+        default:
+            return state;
     }
 };
 
@@ -65,7 +67,7 @@ const Item = ({dirs = [], isWhite, isSelected, onClick}) => {
     return (
         <div onClick={onClick} style={{background: isWhite ? COLORS.WHITE : COLORS.BLACK}} className={`item ${!dirs.length && "empty"} ${isSelected ? "selected" : ""}`}>
         {dirs.map(dir =>
-            <div style={{transform: `rotate(${dir})`}} className="line"></div>
+            <div key={"item" + dir} style={{transform: `rotate(${dir})`}} className="line"></div>
         )}
     </div>)
 };
@@ -78,6 +80,7 @@ const Toolbelt = ({isWhite, toggleColor, currentToolIdx, setTool, erase, setEras
         </div>
         <div style={{opacity: erase ? "0.2" : "1"}}>
             {TOKENS.map((token, idx) => <Item
+                key={`toolbelt-${token.join()}`}
                 isSelected={idx === currentToolIdx}
                 onClick={() => setTool(idx)}
                 dirs={token}
@@ -120,12 +123,12 @@ const Field = () => {
                 const binaryString = DIR_SORTED.slice().reverse().map(x => item.dirs.includes(x) ? "1" : "0").join("");
                 const color = item.isWhite ? "w" : "b";
 
-                return rowAcc + `${color}${parseInt(binaryString, 2)}${x == row.length - 1 ? "" : ","}`
+                return rowAcc + `${color}${parseInt(binaryString, 2)}${x === row.length - 1 ? "" : ","}`
             } else {
-                return rowAcc + ",";
+                return rowAcc + (x === row.length - 1 ? "" : ",");
             }
 
-        }, "") + (y == fields.length - 1 ? "" : "/"), "")
+        }, "") + (y === fields.length - 1 ? "" : "/"), "")
         copyStringToClipboard(ret);
         toast("Copied to clipboard");
     };
