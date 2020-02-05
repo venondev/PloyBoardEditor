@@ -7,6 +7,100 @@
   pointer-events: none;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 50%;
+
+  background: lightgreen;
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid darkgrey;
+  cursor: pointer;
+}
+
+.item.empty {
+    opacity: 0.2;
+}
+
+.item.selected {
+    border: 2px solid red;
+}
+
+.line {
+  height: 24px;
+  width: 2px;
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform-origin: bottom;
+}
+
+.toolbelt {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colorpicker {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.colorpicker.white {
+  background: white;
+  color: black;
+}
+
+.colorpicker.black {
+  background: black;
+  color: white;
+}
+
+.erase {
+  background: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.erase.active {
+  opacity: 1;
+}
+
+button {
+  background: transparent;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 10px;
+  cursor: pointer;
+  border: 2px solid darkslategray;
+  color: darkslategray;
+}
+
+button:active {
+  background: darkslategray;
+  color: black;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
