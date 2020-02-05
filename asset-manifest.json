@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/PloyBoardEditor/static/css/main.91c0cd4d.chunk.css",
-    "main.js": "/PloyBoardEditor/static/js/main.a255d26b.chunk.js",
-    "main.js.map": "/PloyBoardEditor/static/js/main.a255d26b.chunk.js.map",
+    "main.css": "/PloyBoardEditor/static/css/main.d47d1847.chunk.css",
+    "main.js": "/PloyBoardEditor/static/js/main.ed9c33a5.chunk.js",
+    "main.js.map": "/PloyBoardEditor/static/js/main.ed9c33a5.chunk.js.map",
     "runtime-main.js": "/PloyBoardEditor/static/js/runtime-main.95668189.js",
     "runtime-main.js.map": "/PloyBoardEditor/static/js/runtime-main.95668189.js.map",
-    "static/js/2.b8b0857a.chunk.js": "/PloyBoardEditor/static/js/2.b8b0857a.chunk.js",
-    "static/js/2.b8b0857a.chunk.js.map": "/PloyBoardEditor/static/js/2.b8b0857a.chunk.js.map",
+    "static/css/2.5dbdccff.chunk.css": "/PloyBoardEditor/static/css/2.5dbdccff.chunk.css",
+    "static/js/2.654b0d98.chunk.js": "/PloyBoardEditor/static/js/2.654b0d98.chunk.js",
+    "static/js/2.654b0d98.chunk.js.map": "/PloyBoardEditor/static/js/2.654b0d98.chunk.js.map",
     "index.html": "/PloyBoardEditor/index.html",
-    "precache-manifest.91267c8faa50013ba47376550f2cdc43.js": "/PloyBoardEditor/precache-manifest.91267c8faa50013ba47376550f2cdc43.js",
+    "precache-manifest.ac8e4487aa3e2660af40875a6d0545af.js": "/PloyBoardEditor/precache-manifest.ac8e4487aa3e2660af40875a6d0545af.js",
     "service-worker.js": "/PloyBoardEditor/service-worker.js",
-    "static/css/main.91c0cd4d.chunk.css.map": "/PloyBoardEditor/static/css/main.91c0cd4d.chunk.css.map",
-    "static/js/2.b8b0857a.chunk.js.LICENSE.txt": "/PloyBoardEditor/static/js/2.b8b0857a.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/PloyBoardEditor/static/media/logo.5d5d9eef.svg"
+    "static/css/2.5dbdccff.chunk.css.map": "/PloyBoardEditor/static/css/2.5dbdccff.chunk.css.map",
+    "static/css/main.d47d1847.chunk.css.map": "/PloyBoardEditor/static/css/main.d47d1847.chunk.css.map",
+    "static/js/2.654b0d98.chunk.js.LICENSE.txt": "/PloyBoardEditor/static/js/2.654b0d98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.95668189.js",
-    "static/js/2.b8b0857a.chunk.js",
-    "static/css/main.91c0cd4d.chunk.css",
-    "static/js/main.a255d26b.chunk.js"
+    "static/css/2.5dbdccff.chunk.css",
+    "static/js/2.654b0d98.chunk.js",
+    "static/css/main.d47d1847.chunk.css",
+    "static/js/main.ed9c33a5.chunk.js"
   ]
 }
