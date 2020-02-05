@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/PloyBoardEditor/static/css/main.d47d1847.chunk.css",
-    "main.js": "/PloyBoardEditor/static/js/main.ed9c33a5.chunk.js",
-    "main.js.map": "/PloyBoardEditor/static/js/main.ed9c33a5.chunk.js.map",
+    "main.css": "/PloyBoardEditor/static/css/main.f31300db.chunk.css",
+    "main.js": "/PloyBoardEditor/static/js/main.90a9efec.chunk.js",
+    "main.js.map": "/PloyBoardEditor/static/js/main.90a9efec.chunk.js.map",
     "runtime-main.js": "/PloyBoardEditor/static/js/runtime-main.95668189.js",
     "runtime-main.js.map": "/PloyBoardEditor/static/js/runtime-main.95668189.js.map",
     "static/css/2.5dbdccff.chunk.css": "/PloyBoardEditor/static/css/2.5dbdccff.chunk.css",
     "static/js/2.654b0d98.chunk.js": "/PloyBoardEditor/static/js/2.654b0d98.chunk.js",
     "static/js/2.654b0d98.chunk.js.map": "/PloyBoardEditor/static/js/2.654b0d98.chunk.js.map",
     "index.html": "/PloyBoardEditor/index.html",
-    "precache-manifest.ac8e4487aa3e2660af40875a6d0545af.js": "/PloyBoardEditor/precache-manifest.ac8e4487aa3e2660af40875a6d0545af.js",
+    "precache-manifest.d1bb812e0dcf01e179933dfb3c91676e.js": "/PloyBoardEditor/precache-manifest.d1bb812e0dcf01e179933dfb3c91676e.js",
     "service-worker.js": "/PloyBoardEditor/service-worker.js",
     "static/css/2.5dbdccff.chunk.css.map": "/PloyBoardEditor/static/css/2.5dbdccff.chunk.css.map",
-    "static/css/main.d47d1847.chunk.css.map": "/PloyBoardEditor/static/css/main.d47d1847.chunk.css.map",
+    "static/css/main.f31300db.chunk.css.map": "/PloyBoardEditor/static/css/main.f31300db.chunk.css.map",
     "static/js/2.654b0d98.chunk.js.LICENSE.txt": "/PloyBoardEditor/static/js/2.654b0d98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.95668189.js",
     "static/css/2.5dbdccff.chunk.css",
     "static/js/2.654b0d98.chunk.js",
-    "static/css/main.d47d1847.chunk.css",
-    "static/js/main.ed9c33a5.chunk.js"
+    "static/css/main.f31300db.chunk.css",
+    "static/js/main.90a9efec.chunk.js"
   ]
 }
