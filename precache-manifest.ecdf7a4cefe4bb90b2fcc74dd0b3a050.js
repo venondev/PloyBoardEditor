@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a13601ae9abde8ff7b83d0ed5b59565",
+    "revision": "b8a8c1b83a602417971e1642f15db38e",
     "url": "/PloyBoardEditor/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PloyBoardEditor/static/css/2.5dbdccff.chunk.css"
   },
   {
-    "revision": "4755798430c88d03c830",
+    "revision": "8981a080e8461e9875ae",
     "url": "/PloyBoardEditor/static/css/main.f31300db.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PloyBoardEditor/static/js/2.654b0d98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4755798430c88d03c830",
-    "url": "/PloyBoardEditor/static/js/main.90a9efec.chunk.js"
+    "revision": "8981a080e8461e9875ae",
+    "url": "/PloyBoardEditor/static/js/main.bc4648fc.chunk.js"
   },
   {
     "revision": "94974ad507ae0f479fc4",
