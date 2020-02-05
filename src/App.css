@@ -1,12 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .main {
     display: flex;
     align-items: center;
@@ -85,7 +76,7 @@
   opacity: 1;
 }
 
-button {
+.copybtn {
   background: transparent;
   border: none;
   padding: 5px;
@@ -96,15 +87,9 @@ button {
   color: darkslategray;
 }
 
-button:active {
+.copybtn:active {
   background: darkslategray;
   color: black;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -118,15 +103,3 @@ button:active {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

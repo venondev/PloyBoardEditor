@@ -1,4 +1,5 @@
 import React, {useReducer, useState} from "react";
+import {toast, ToastContainer} from "react-toastify";
 
 const COLORS = {
     WHITE: "white",
@@ -85,7 +86,7 @@ const Toolbelt = ({isWhite, toggleColor, currentToolIdx, setTool, erase, setEras
         </div>
         <div onClick={() => setErase(e => !e)} className={`erase ${erase && "active"}`}></div>
 
-        <button onClick={copyToClip}>Copy to clipboard</button>
+        <button className="copybtn" onClick={copyToClip}>Copy to clipboard</button>
     </div>)
 
 };
@@ -126,6 +127,7 @@ const Field = () => {
 
         }, "") + (y == fields.length - 1 ? "" : "/"), "")
         copyStringToClipboard(ret);
+        toast("Copied to clipboard");
     };
 
     return (<div className="main">
@@ -154,6 +156,7 @@ const Field = () => {
                 </div>
             ))}
         </div>
+        <ToastContainer />
     </div>)
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Field from "./Field";
 
